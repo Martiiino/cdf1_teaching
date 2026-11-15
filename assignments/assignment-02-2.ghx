@@ -22,7 +22,7 @@
       <chunks count="5">
         <chunk name="DocumentHeader">
           <items count="5">
-            <item name="DocumentID" type_name="gh_guid" type_code="9">7db2f99e-1a5c-44cf-b366-ceb2c1675622</item>
+            <item name="DocumentID" type_name="gh_guid" type_code="9">d6da1db6-17a1-47bb-a46f-97d223f59d1f</item>
             <item name="Preview" type_name="gh_string" type_code="10">Shaded</item>
             <item name="PreviewMeshType" type_name="gh_int32" type_code="3">1</item>
             <item name="PreviewNormal" type_name="gh_drawing_color" type_code="36">
@@ -114,7 +114,7 @@
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Arial</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">562f9cba-b6c4-46b9-a07f-f2bfec121bd0</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">fd683c83-b78e-4fce-93da-53f4d029100e</item>
                     <item name="Italic" type_name="gh_bool" type_code="1">false</item>
                     <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
@@ -149,7 +149,7 @@
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Number of columns of full tiles</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">d2ec0fc3-96b4-4ea5-b274-e4e6fa7f6a29</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">8200f7ae-df15-40a2-9ab9-6f6da5fca047</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">columns</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -194,7 +194,7 @@
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Number of full tiles per column</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">a60f1e84-8870-4eaf-8bb5-be70024f08bf</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">955b4d69-641f-4fe3-95e7-04402b94f9d5</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">rows</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -239,7 +239,7 @@
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Side length of the regular hexagon, in metres</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">40c87235-67e0-4e70-9f4f-1e1eacbc3f10</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">480377b7-ad15-4bf2-a43a-4495adacfd25</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">side</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -284,7 +284,7 @@
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Seed for testing arrangements of rotated tiles</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">ccc88cfe-a9b2-4d87-a8db-e6ebbff0d3c8</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">5fa61ee0-0f37-4b65-a6d4-8abdebafecf5</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">seed</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -329,7 +329,7 @@
                 <chunk name="Container">
                   <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">0: one-colour motif, 1: highlight the selected continuous route</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">b80e3297-b704-4a98-b625-1a7210bd6da5</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">8f0633ee-e24f-4b53-ac01-42670244a8d9</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">trace</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -376,7 +376,7 @@
                     <item name="Description" type_name="gh_string" type_code="10" />
                     <item name="GraftStandardOutputLines" type_name="gh_bool" type_code="1">true</item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">514cf6a1-252d-473a-9898-5fcd6b8e1c04</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">97fc31e6-49d7-493e-b078-547222bc8887</item>
                     <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                     <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                     <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
@@ -417,14 +417,14 @@
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Number of columns of full tiles</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ffb9ef33-5ad2-4476-8108-e64e00b4b436</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">89a9a242-354f-4b89-aaad-7aafaf7cd712</item>
                             <item name="Name" type_name="gh_string" type_code="10">columns</item>
                             <item name="NickName" type_name="gh_string" type_code="10">columns</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">d2ec0fc3-96b4-4ea5-b274-e4e6fa7f6a29</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">8200f7ae-df15-40a2-9ab9-6f6da5fca047</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10" />
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
@@ -456,14 +456,14 @@
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Number of full tiles per column</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f11704c6-0b6e-43aa-9226-f1a43f6d7ad6</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e3371c8f-cf42-494a-aa9f-431280890c12</item>
                             <item name="Name" type_name="gh_string" type_code="10">rows</item>
                             <item name="NickName" type_name="gh_string" type_code="10">rows</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">a60f1e84-8870-4eaf-8bb5-be70024f08bf</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">955b4d69-641f-4fe3-95e7-04402b94f9d5</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10" />
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
@@ -495,14 +495,14 @@
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Side length of the regular hexagon, in metres</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c09e1d09-bf6d-4589-9c1e-929a6706b8f0</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">2cc04f09-d117-4573-9085-1a5a03bfb987</item>
                             <item name="Name" type_name="gh_string" type_code="10">side</item>
                             <item name="NickName" type_name="gh_string" type_code="10">side</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">40c87235-67e0-4e70-9f4f-1e1eacbc3f10</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">480377b7-ad15-4bf2-a43a-4495adacfd25</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10" />
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
@@ -534,14 +534,14 @@
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Seed for testing arrangements of rotated tiles</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">33e41afe-fda3-4714-8f98-cdd0ec672c9e</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">4a6081de-72dd-4389-8852-440b16cc5de4</item>
                             <item name="Name" type_name="gh_string" type_code="10">seed</item>
                             <item name="NickName" type_name="gh_string" type_code="10">seed</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">ccc88cfe-a9b2-4d87-a8db-e6ebbff0d3c8</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">5fa61ee0-0f37-4b65-a6d4-8abdebafecf5</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10" />
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
@@ -573,14 +573,14 @@
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">0: one-colour motif, 1: highlight the selected continuous route</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c5661664-c7a4-41fe-88ff-06d2c19d0c36</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b91e3622-b95c-46be-9243-73580d1365e3</item>
                             <item name="Name" type_name="gh_string" type_code="10">trace</item>
                             <item name="NickName" type_name="gh_string" type_code="10">trace</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">b80e3297-b704-4a98-b625-1a7210bd6da5</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">8f0633ee-e24f-4b53-ac01-42670244a8d9</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10" />
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
@@ -611,7 +611,7 @@
                         <chunk name="OutputParam" index="0">
                           <items count="6">
                             <item name="Description" type_name="gh_string" type_code="10">The execution information, as output and error streams</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">18f04e92-ee97-4c57-a118-498d94188e74</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">6edec361-1701-4f22-9ec6-b0e8ef1e6a4e</item>
                             <item name="Name" type_name="gh_string" type_code="10">out</item>
                             <item name="NickName" type_name="gh_string" type_code="10">out</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -638,7 +638,7 @@
                           <items count="12">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
                             <item name="Description" type_name="gh_string" type_code="10">rhinoscriptsyntax geometry</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">cd4a3fd3-c35a-4748-9b44-6bfe29ea7404</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d2fc55e5-b66f-469c-9ad3-02e1b0b9be83</item>
                             <item name="Name" type_name="gh_string" type_code="10">geometry</item>
                             <item name="NickName" type_name="gh_string" type_code="10">geometry</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -676,7 +676,7 @@
                           <items count="12">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
                             <item name="Description" type_name="gh_string" type_code="10">rhinoscriptsyntax geometry</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bc56aea4-51d5-464e-bcee-7cfba06bb1fa</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">1f27c5a1-38fd-4a65-8801-a8b84eadb567</item>
                             <item name="Name" type_name="gh_string" type_code="10">colors</item>
                             <item name="NickName" type_name="gh_string" type_code="10">colors</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -754,7 +754,7 @@
                     <item name="Description" type_name="gh_string" type_code="10">Allows for customized geometry previews</item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">false</item>
                     <item name="IncludeInRender" type_name="gh_bool" type_code="1">true</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">4b6c19b8-43f3-48d0-ae0a-5739452e190b</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">69e7fec5-2415-4768-b709-b1ed2e239bd2</item>
                     <item name="Name" type_name="gh_string" type_code="10">Custom Preview</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Preview</item>
                     <item name="ViewportFilter" type_name="gh_string" type_code="10" />
@@ -778,11 +778,11 @@
                       <items count="9">
                         <item name="Description" type_name="gh_string" type_code="10">Geometry to preview</item>
                         <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">4f40b6bf-fa30-412c-b782-97fd5dca0461</item>
+                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">4a51f32e-fceb-4e9c-8ebe-52f0f4b06315</item>
                         <item name="Name" type_name="gh_string" type_code="10">Geometry</item>
                         <item name="NickName" type_name="gh_string" type_code="10">G</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">cd4a3fd3-c35a-4748-9b44-6bfe29ea7404</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">d2fc55e5-b66f-469c-9ad3-02e1b0b9be83</item>
                         <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                         <item name="WireDisplay" type_name="gh_int32" type_code="3">1</item>
                       </items>
@@ -806,11 +806,11 @@
                     <chunk name="param_input" index="1">
                       <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The material override</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">aec1486c-3555-4532-a40c-19c5433cfa56</item>
+                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">45ddd6b0-d2ff-4c5c-a8f3-deb134327815</item>
                         <item name="Name" type_name="gh_string" type_code="10">Material</item>
                         <item name="NickName" type_name="gh_string" type_code="10">M</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">bc56aea4-51d5-464e-bcee-7cfba06bb1fa</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">1f27c5a1-38fd-4a65-8801-a8b84eadb567</item>
                         <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                       </items>
                       <chunks count="1">
