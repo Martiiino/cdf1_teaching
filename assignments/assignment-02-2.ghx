@@ -22,7 +22,7 @@
       <chunks count="5">
         <chunk name="DocumentHeader">
           <items count="5">
-            <item name="DocumentID" type_name="gh_guid" type_code="9">d6da1db6-17a1-47bb-a46f-97d223f59d1f</item>
+            <item name="DocumentID" type_name="gh_guid" type_code="9">0988f5e3-e8eb-4172-8070-dc15950daec7</item>
             <item name="Preview" type_name="gh_string" type_code="10">Shaded</item>
             <item name="PreviewMeshType" type_name="gh_int32" type_code="3">1</item>
             <item name="PreviewNormal" type_name="gh_drawing_color" type_code="36">
@@ -148,10 +148,10 @@
               <chunks count="1">
                 <chunk name="Container">
                   <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Number of columns of full tiles</item>
+                    <item name="Description" type_name="gh_string" type_code="10">0 = random with seed; 1..8 = presentation layouts</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">8200f7ae-df15-40a2-9ab9-6f6da5fca047</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">columns</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">layout</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                   </items>
@@ -175,10 +175,10 @@
                         <item name="Digits" type_name="gh_int32" type_code="3">0</item>
                         <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
                         <item name="Interval" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Max" type_name="gh_double" type_code="6">16</item>
-                        <item name="Min" type_name="gh_double" type_code="6">5</item>
+                        <item name="Max" type_name="gh_double" type_code="6">8</item>
+                        <item name="Min" type_name="gh_double" type_code="6">0</item>
                         <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">12</item>
+                        <item name="Value" type_name="gh_double" type_code="6">6</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -193,10 +193,10 @@
               <chunks count="1">
                 <chunk name="Container">
                   <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Number of full tiles per column</item>
+                    <item name="Description" type_name="gh_string" type_code="10">Random orientation seed when layout is 0</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">955b4d69-641f-4fe3-95e7-04402b94f9d5</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">rows</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">seed</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                   </items>
@@ -220,10 +220,10 @@
                         <item name="Digits" type_name="gh_int32" type_code="3">0</item>
                         <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
                         <item name="Interval" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Max" type_name="gh_double" type_code="6">12</item>
-                        <item name="Min" type_name="gh_double" type_code="6">4</item>
+                        <item name="Max" type_name="gh_double" type_code="6">999</item>
+                        <item name="Min" type_name="gh_double" type_code="6">1</item>
                         <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">8</item>
+                        <item name="Value" type_name="gh_double" type_code="6">23</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -238,7 +238,7 @@
               <chunks count="1">
                 <chunk name="Container">
                   <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Side length of the regular hexagon, in metres</item>
+                    <item name="Description" type_name="gh_string" type_code="10">Hexagon side length in metres</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">480377b7-ad15-4bf2-a43a-4495adacfd25</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">side</item>
@@ -283,10 +283,10 @@
               <chunks count="1">
                 <chunk name="Container">
                   <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Seed for testing arrangements of rotated tiles</item>
+                    <item name="Description" type_name="gh_string" type_code="10">Alternate nested-loop fills at every depth</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">5fa61ee0-0f37-4b65-a6d4-8abdebafecf5</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">seed</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">fill</item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                   </items>
@@ -310,10 +310,10 @@
                         <item name="Digits" type_name="gh_int32" type_code="3">0</item>
                         <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
                         <item name="Interval" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Max" type_name="gh_double" type_code="6">99</item>
-                        <item name="Min" type_name="gh_double" type_code="6">1</item>
+                        <item name="Max" type_name="gh_double" type_code="6">1</item>
+                        <item name="Min" type_name="gh_double" type_code="6">0</item>
                         <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">23</item>
+                        <item name="Value" type_name="gh_double" type_code="6">1</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -328,7 +328,7 @@
               <chunks count="1">
                 <chunk name="Container">
                   <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">0: one-colour motif, 1: highlight the selected continuous route</item>
+                    <item name="Description" type_name="gh_string" type_code="10">Highlight the longest non-closed path</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">8f0633ee-e24f-4b53-ac01-42670244a8d9</item>
                     <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
                     <item name="NickName" type_name="gh_string" type_code="10">trace</item>
@@ -358,7 +358,7 @@
                         <item name="Max" type_name="gh_double" type_code="6">1</item>
                         <item name="Min" type_name="gh_double" type_code="6">0</item>
                         <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">0</item>
+                        <item name="Value" type_name="gh_double" type_code="6">1</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -416,10 +416,10 @@
                         <chunk name="InputParam" index="0">
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">Number of columns of full tiles</item>
+                            <item name="Description" type_name="gh_string" type_code="10">0 = random with seed; 1..8 = presentation layouts</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">89a9a242-354f-4b89-aaad-7aafaf7cd712</item>
-                            <item name="Name" type_name="gh_string" type_code="10">columns</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">columns</item>
+                            <item name="Name" type_name="gh_string" type_code="10">layout</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">layout</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -455,10 +455,10 @@
                         <chunk name="InputParam" index="1">
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">Number of full tiles per column</item>
+                            <item name="Description" type_name="gh_string" type_code="10">Random orientation seed when layout is 0</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">e3371c8f-cf42-494a-aa9f-431280890c12</item>
-                            <item name="Name" type_name="gh_string" type_code="10">rows</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">rows</item>
+                            <item name="Name" type_name="gh_string" type_code="10">seed</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">seed</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -494,7 +494,7 @@
                         <chunk name="InputParam" index="2">
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">Side length of the regular hexagon, in metres</item>
+                            <item name="Description" type_name="gh_string" type_code="10">Hexagon side length in metres</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">2cc04f09-d117-4573-9085-1a5a03bfb987</item>
                             <item name="Name" type_name="gh_string" type_code="10">side</item>
                             <item name="NickName" type_name="gh_string" type_code="10">side</item>
@@ -533,10 +533,10 @@
                         <chunk name="InputParam" index="3">
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">Seed for testing arrangements of rotated tiles</item>
+                            <item name="Description" type_name="gh_string" type_code="10">Alternate nested-loop fills at every depth</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">4a6081de-72dd-4389-8852-440b16cc5de4</item>
-                            <item name="Name" type_name="gh_string" type_code="10">seed</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">seed</item>
+                            <item name="Name" type_name="gh_string" type_code="10">fill</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">fill</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -572,7 +572,7 @@
                         <chunk name="InputParam" index="4">
                           <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">0: one-colour motif, 1: highlight the selected continuous route</item>
+                            <item name="Description" type_name="gh_string" type_code="10">Highlight the longest non-closed path</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">b91e3622-b95c-46be-9243-73580d1365e3</item>
                             <item name="Name" type_name="gh_string" type_code="10">trace</item>
                             <item name="NickName" type_name="gh_string" type_code="10">trace</item>
@@ -717,7 +717,7 @@
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">IiIiQXNzaWdubWVudCAyLjIuIEVxdWFsIGhleGFnb25zIHdpdGggYSBzaW5nbGUgcm90YXRpbmcgdGhyZWUtYXJjIG1vdGlmLiIiIgpmcm9tIG1hdGggaW1wb3J0IGNvcywgcGksIHNpbiwgc3FydAoKaW1wb3J0IFJoaW5vLkdlb21ldHJ5IGFzIHJnCmZyb20gU3lzdGVtIGltcG9ydCBSYW5kb20KZnJvbSBTeXN0ZW0uRHJhd2luZyBpbXBvcnQgQ29sb3IKCgpORUlHSEJPUlMgPSAoKDEsIDApLCAoMCwgMSksICgtMSwgMSksICgtMSwgMCksICgwLCAtMSksICgxLCAtMSkpCgoKZGVmIHRyYWNlX21vdGlmcyhyb3RhdGlvbnMsIGNvbHVtbnMpOgogICAgIiIiUmV0dXJuIHRoZSBiZXN0IGNvbm5lY3RlZCBjaGFpbiBhbmQgd2hldGhlciBpdCBydW5zIGxlZnQgdG8gcmlnaHQuIiIiCiAgICByZW1haW5pbmcgPSB7KHEsIHIsICgyICogaSArIHR1cm4pICUgNikKICAgICAgICAgICAgICAgICBmb3IgKHEsIHIpLCB0dXJuIGluIHJvdGF0aW9ucy5pdGVtcygpIGZvciBpIGluIHJhbmdlKDMpfQogICAgYmVzdCA9IHNldCgpCiAgICBzY29yZSA9ICgtMSwgLTEsIC0xKQogICAgd2hpbGUgcmVtYWluaW5nOgogICAgICAgIGZpcnN0ID0gbWluKHJlbWFpbmluZykKICAgICAgICByZW1haW5pbmcucmVtb3ZlKGZpcnN0KQogICAgICAgIHBlbmRpbmcgPSBbZmlyc3RdCiAgICAgICAgY29tcG9uZW50ID0ge2ZpcnN0fQogICAgICAgIG9wZW5fbGVmdCA9IG9wZW5fcmlnaHQgPSBGYWxzZQogICAgICAgIHdoaWxlIHBlbmRpbmc6CiAgICAgICAgICAgIHEsIHIsIGVkZ2UgPSBwZW5kaW5nLnBvcCgpCiAgICAgICAgICAgIGZvciBwb3J0IGluIChlZGdlLCAoZWRnZSArIDEpICUgNik6CiAgICAgICAgICAgICAgICBkcSwgZHIgPSBORUlHSEJPUlNbcG9ydF0KICAgICAgICAgICAgICAgIG5laWdoYm9yID0gKHEgKyBkcSwgciArIGRyKQogICAgICAgICAgICAgICAgaWYgbmVpZ2hib3Igbm90IGluIHJvdGF0aW9uczoKICAgICAgICAgICAgICAgICAgICBvcGVuX2xlZnQgfD0gcSA9PSAwIGFuZCBkcSA9PSAtMQogICAgICAgICAgICAgICAgICAgIG9wZW5fcmlnaHQgfD0gcSA9PSBjb2x1bW5zIC0gMSBhbmQgZHEgPT0gMQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBpbmNvbWluZyA9IChwb3J0ICsgMykgJSA2CiAgICAgICAgICAgICAgICBwYWlyZWRfc3RhcnQgPSAoaW5jb21pbmcgLSAoaW5jb21pbmcgLSByb3RhdGlvbnNbbmVpZ2hib3JdKSAlIDIpICUgNgogICAgICAgICAgICAgICAgc2VnbWVudCA9IChuZWlnaGJvclswXSwgbmVpZ2hib3JbMV0sIHBhaXJlZF9zdGFydCkKICAgICAgICAgICAgICAgIGlmIHNlZ21lbnQgaW4gcmVtYWluaW5nOgogICAgICAgICAgICAgICAgICAgIHJlbWFpbmluZy5yZW1vdmUoc2VnbWVudCkKICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQuYWRkKHNlZ21lbnQpCiAgICAgICAgICAgICAgICAgICAgcGVuZGluZy5hcHBlbmQoc2VnbWVudCkKICAgICAgICBzcGFuID0gbWF4KHNbMF0gZm9yIHMgaW4gY29tcG9uZW50KSAtIG1pbihzWzBdIGZvciBzIGluIGNvbXBvbmVudCkKICAgICAgICByYW5rID0gKGludChvcGVuX2xlZnQgYW5kIG9wZW5fcmlnaHQpLCBzcGFuLCBsZW4oY29tcG9uZW50KSkKICAgICAgICBpZiByYW5rID4gc2NvcmU6CiAgICAgICAgICAgIHNjb3JlLCBiZXN0ID0gcmFuaywgY29tcG9uZW50CiAgICByZXR1cm4gYmVzdCwgYm9vbChzY29yZVswXSkKCgpkZWYgY2hvb3NlX2xheW91dChjb2x1bW5zLCByb3dzLCBzZWVkKToKICAgICIiIkNvbXBhcmUgNDggc2VlZGVkIGFycmFuZ2VtZW50cyBhbmQgcHJlZmVyIGEgbG9uZyBjcm9zc2luZyBvZiB0aGUgZmllbGQuIiIiCiAgICBybmcgPSBSYW5kb20oc2VlZCkKICAgIGNlbGxzID0gWyhxLCByb3cgLSBxIC8vIDIpIGZvciBxIGluIHJhbmdlKGNvbHVtbnMpIGZvciByb3cgaW4gcmFuZ2Uocm93cyldCiAgICBiZXN0ID0gKC0xLCAtMSwgLTEpCiAgICBmb3IgXyBpbiByYW5nZSg0OCk6CiAgICAgICAgcm90YXRpb25zID0ge2NlbGw6IHJuZy5OZXh0KDIpIGZvciBjZWxsIGluIGNlbGxzfQogICAgICAgIHBhdGgsIGNyb3NzZXMgPSB0cmFjZV9tb3RpZnMocm90YXRpb25zLCBjb2x1bW5zKQogICAgICAgIHNwYW4gPSBtYXgoc1swXSBmb3IgcyBpbiBwYXRoKSAtIG1pbihzWzBdIGZvciBzIGluIHBhdGgpCiAgICAgICAgc2NvcmUgPSAoaW50KGNyb3NzZXMpLCBzcGFuLCBsZW4ocGF0aCkpCiAgICAgICAgaWYgc2NvcmUgPiBiZXN0OgogICAgICAgICAgICBiZXN0LCByZXN1bHQgPSBzY29yZSwgKHJvdGF0aW9ucywgcGF0aCwgY3Jvc3NlcykKICAgIHJldHVybiByZXN1bHQKCgpkZWYgcG9sYXIoeCwgeSwgeiwgcmFkaXVzLCBhbmdsZSk6CiAgICByZXR1cm4gcmcuUG9pbnQzZCh4ICsgcmFkaXVzICogY29zKGFuZ2xlKSwgeSArIHJhZGl1cyAqIHNpbihhbmdsZSksIHopCgoKZGVmIG1ha2VfdGlsZSh4LCB5LCBzaWRlLCB0aGlja25lc3MpOgogICAgdmVydGljZXMgPSBbcG9sYXIoeCwgeSwgMCwgc2lkZSwgaSAqIHBpIC8gMykgZm9yIGkgaW4gcmFuZ2UoNildCiAgICBvdXRsaW5lID0gcmcuUG9seWxpbmVDdXJ2ZSh2ZXJ0aWNlcyArIHZlcnRpY2VzWzoxXSkKICAgIHJldHVybiByZy5FeHRydXNpb24uQ3JlYXRlKG91dGxpbmUsIHRoaWNrbmVzcywgVHJ1ZSkuVG9CcmVwKCkKCgpkZWYgbWFrZV9yaWJib24oeCwgeSwgc2lkZSwgeiwgZWRnZSwgd2lkdGgpOgogICAgIiIiTWFrZSBvbmUgMTIwLWRlZ3JlZSBiYW5kIHRhbmdlbnQgdG8gdGhlIHNhbWUgYmFuZCBvbiB0aGUgbmV4dCB0aWxlLiIiIgogICAgY29ybmVyX2FuZ2xlID0gKGVkZ2UgKyAxKSAqIHBpIC8gMwogICAgdmVydGV4ID0gcG9sYXIoeCwgeSwgeiwgc2lkZSwgY29ybmVyX2FuZ2xlKQogICAgYW5nbGVzID0gW2Nvcm5lcl9hbmdsZSArIGkgKiBwaSAvIDMgZm9yIGkgaW4gKDIsIDMsIDQpXQogICAgb3V0ZXIgPSBbcG9sYXIodmVydGV4LlgsIHZlcnRleC5ZLCB6LCAoc2lkZSArIHdpZHRoKSAvIDIsIGEpIGZvciBhIGluIGFuZ2xlc10KICAgIGlubmVyID0gW3BvbGFyKHZlcnRleC5YLCB2ZXJ0ZXguWSwgeiwgKHNpZGUgLSB3aWR0aCkgLyAyLCBhKSBmb3IgYSBpbiBhbmdsZXNdCiAgICBib3VuZGFyeSA9IHJnLlBvbHlDdXJ2ZSgpCiAgICBib3VuZGFyeS5BcHBlbmQocmcuQXJjQ3VydmUocmcuQXJjKCpvdXRlcikpKQogICAgYm91bmRhcnkuQXBwZW5kKHJnLkxpbmVDdXJ2ZShvdXRlclstMV0sIGlubmVyWy0xXSkpCiAgICBib3VuZGFyeS5BcHBlbmQocmcuQXJjQ3VydmUocmcuQXJjKCpyZXZlcnNlZChpbm5lcikpKSkKICAgIGJvdW5kYXJ5LkFwcGVuZChyZy5MaW5lQ3VydmUoaW5uZXJbMF0sIG91dGVyWzBdKSkKICAgIHJldHVybiByZy5CcmVwLkNyZWF0ZVBsYW5hckJyZXBzKGJvdW5kYXJ5LCAwLjAwMDAxKVswXQoKCmRlZiBtYWtlX21vZHVsZSh4LCB5LCBzaWRlLCB0dXJuLCBzdHJpcGUpOgogICAgdGhpY2tuZXNzID0gMC4wNDUKICAgIHRpbGUgPSBtYWtlX3RpbGUoeCwgeSwgc2lkZSwgdGhpY2tuZXNzKQogICAgbWFya3MgPSBbbWFrZV9yaWJib24oeCwgeSwgc2lkZSwgdGhpY2tuZXNzICsgMC4wMDAyLCAoMiAqIGkgKyB0dXJuKSAlIDYsIHN0cmlwZSkKICAgICAgICAgICAgIGZvciBpIGluIHJhbmdlKDMpXQogICAgcmV0dXJuIHRpbGUsIG1hcmtzCgoKZGVmIGJ1aWxkX2Zsb29yKGNvbHVtbnMsIHJvd3MsIHNpZGUsIHNlZWQsIHRyYWNlKToKICAgIHJvdGF0aW9ucywgcGF0aCwgY3Jvc3NlcyA9IGNob29zZV9sYXlvdXQoY29sdW1ucywgcm93cywgc2VlZCkKICAgIGdlb21ldHJ5LCBjb2xvcnMgPSBbXSwgW10KICAgIGNlcmFtaWMgPSBDb2xvci5Gcm9tQXJnYigyMzAsIDIxOSwgMTkzKQogICAgbmF2eSA9IENvbG9yLkZyb21BcmdiKDMyLCA2OSwgODIpCiAgICBmb2cgPSBDb2xvci5Gcm9tQXJnYigxNzksIDE4MSwgMTY4KQogICAgcmVkID0gQ29sb3IuRnJvbUFyZ2IoMTg3LCA2OSwgNDQpCiAgICBmb3IgKHEsIHIpLCB0dXJuIGluIHJvdGF0aW9ucy5pdGVtcygpOgogICAgICAgIHggPSAxLjUgKiBzaWRlICogcQogICAgICAgIHkgPSBzcXJ0KDMuMCkgKiBzaWRlICogKHIgKyBxIC8gMi4wKQogICAgICAgIHRpbGUsIG1hcmtzID0gbWFrZV9tb2R1bGUoeCwgeSwgc2lkZSwgdHVybiwgMC4xOSAqIHNpZGUpCiAgICAgICAgZ2VvbWV0cnkuZXh0ZW5kKFt0aWxlXSArIG1hcmtzKQogICAgICAgIGNvbG9ycy5hcHBlbmQoY2VyYW1pYykKICAgICAgICBmb3IgaSBpbiByYW5nZSgzKToKICAgICAgICAgICAga2V5ID0gKHEsIHIsICgyICogaSArIHR1cm4pICUgNikKICAgICAgICAgICAgY29sb3JzLmFwcGVuZCgocmVkIGlmIGtleSBpbiBwYXRoIGVsc2UgZm9nKSBpZiB0cmFjZSBlbHNlIG5hdnkpCiAgICByZXR1cm4gZ2VvbWV0cnksIGNvbG9ycywgKGxlbihyb3RhdGlvbnMpLCBsZW4ocGF0aCksIGxlbih7c1s6Ml0gZm9yIHMgaW4gcGF0aH0pLCBjcm9zc2VzKQoKCmlmIGFsbChuYW1lIGluIGdsb2JhbHMoKSBmb3IgbmFtZSBpbiAoJ2NvbHVtbnMnLCAncm93cycsICdzaWRlJywgJ3NlZWQnLCAndHJhY2UnKSk6CiAgICBnZW9tZXRyeSwgY29sb3JzLCBtZXRyaWNzID0gYnVpbGRfZmxvb3IoaW50KGNvbHVtbnMpLCBpbnQocm93cyksIGZsb2F0KHNpZGUpLCBpbnQoc2VlZCksIGJvb2wodHJhY2UpKQogICAgY291bnQsIGFyY3MsIHRpbGVzLCBjcm9zc2luZyA9IG1ldHJpY3MKICAgIHByaW50KCd7fSBlcXVhbCB0aWxlcywge30gbWF0Y2hpbmcgbW90aWZzJy5mb3JtYXQoY291bnQsIGNvdW50KSkKICAgIHByaW50KCdTZWxlY3RlZCByb3V0ZToge30gYXJjcyBhY3Jvc3Mge30gZGlzdGluY3QgdGlsZXMnLmZvcm1hdChhcmNzLCB0aWxlcykpCiAgICBwcmludCgnQ3Jvc3NlcyBsZWZ0IHRvIHJpZ2h0OiB7fScuZm9ybWF0KCd5ZXMnIGlmIGNyb3NzaW5nIGVsc2UgJ25vJykpCg==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">IiIiMjQwIGVxdWFsIGhleGFnb25zLCByYW5kb20gb3JpZW50YXRpb25zLCBuZXN0ZWQgZmlsbHMgYW5kIGxvbmdlc3Qgb3BlbiBwYXRoLgoKbGF5b3V0IDEuLjggcmVwcm9kdWNlcyB0aGUgZWlnaHQgcHJlc2VudGF0aW9uIGFycmFuZ2VtZW50cy4KbGF5b3V0IDAgY3JlYXRlcyBpbmRlcGVuZGVudCBzZWVkZWQgMC82MC1kZWdyZWUgcm90YXRpb25zIGZvciBldmVyeSB0aWxlLgoiIiIKZnJvbSBtYXRoIGltcG9ydCBjb3MsIHBpLCBzaW4sIHNxcnQKaW1wb3J0IFJoaW5vLkdlb21ldHJ5IGFzIHJnCmZyb20gU3lzdGVtIGltcG9ydCBSYW5kb20KZnJvbSBTeXN0ZW0uRHJhd2luZyBpbXBvcnQgQ29sb3IKCk5FSUdIQk9SUyA9ICgoMSwgMCksICgwLCAxKSwgKC0xLCAxKSwgKC0xLCAwKSwgKDAsIC0xKSwgKDEsIC0xKSkKQ0VMTFMgPSBbWy0zLCAwXSwgWy0zLCAxXSwgWy0zLCAyXSwgWy0zLCAzXSwgWy0zLCA0XSwgWy0zLCA1XSwgWy0zLCA2XSwgWy0zLCA3XSwgWy0zLCA4XSwgWy0zLCA5XSwgWy0zLCAxMF0sIFstMiwgLTFdLCBbLTIsIDBdLCBbLTIsIDFdLCBbLTIsIDJdLCBbLTIsIDNdLCBbLTIsIDRdLCBbLTIsIDVdLCBbLTIsIDZdLCBbLTIsIDddLCBbLTIsIDhdLCBbLTIsIDldLCBbLTIsIDEwXSwgWy0xLCAtMl0sIFstMSwgLTFdLCBbLTEsIDBdLCBbLTEsIDFdLCBbLTEsIDJdLCBbLTEsIDNdLCBbLTEsIDRdLCBbLTEsIDVdLCBbLTEsIDZdLCBbLTEsIDddLCBbLTEsIDhdLCBbLTEsIDldLCBbLTEsIDEwXSwgWzAsIC0zXSwgWzAsIC0yXSwgWzAsIC0xXSwgWzAsIDBdLCBbMCwgMV0sIFswLCAyXSwgWzAsIDNdLCBbMCwgNF0sIFswLCA1XSwgWzAsIDZdLCBbMCwgN10sIFswLCA4XSwgWzAsIDldLCBbMCwgMTBdLCBbMSwgLTNdLCBbMSwgLTJdLCBbMSwgLTFdLCBbMSwgMF0sIFsxLCAxXSwgWzEsIDJdLCBbMSwgM10sIFsxLCA0XSwgWzEsIDVdLCBbMSwgNl0sIFsxLCA3XSwgWzEsIDhdLCBbMSwgOV0sIFsxLCAxMF0sIFsyLCAtNF0sIFsyLCAtM10sIFsyLCAtMl0sIFsyLCAtMV0sIFsyLCAwXSwgWzIsIDFdLCBbMiwgMl0sIFsyLCAzXSwgWzIsIDRdLCBbMiwgNV0sIFsyLCA2XSwgWzIsIDddLCBbMiwgOF0sIFsyLCA5XSwgWzMsIC00XSwgWzMsIC0zXSwgWzMsIC0yXSwgWzMsIC0xXSwgWzMsIDBdLCBbMywgMV0sIFszLCAyXSwgWzMsIDNdLCBbMywgNF0sIFszLCA1XSwgWzMsIDZdLCBbMywgN10sIFszLCA4XSwgWzMsIDldLCBbNCwgLTVdLCBbNCwgLTRdLCBbNCwgLTNdLCBbNCwgLTJdLCBbNCwgLTFdLCBbNCwgMF0sIFs0LCAxXSwgWzQsIDJdLCBbNCwgM10sIFs0LCA0XSwgWzQsIDVdLCBbNCwgNl0sIFs0LCA3XSwgWzQsIDhdLCBbNSwgLTVdLCBbNSwgLTRdLCBbNSwgLTNdLCBbNSwgLTJdLCBbNSwgLTFdLCBbNSwgMF0sIFs1LCAxXSwgWzUsIDJdLCBbNSwgM10sIFs1LCA0XSwgWzUsIDVdLCBbNSwgNl0sIFs1LCA3XSwgWzUsIDhdLCBbNiwgLTZdLCBbNiwgLTVdLCBbNiwgLTRdLCBbNiwgLTNdLCBbNiwgLTJdLCBbNiwgLTFdLCBbNiwgMF0sIFs2LCAxXSwgWzYsIDJdLCBbNiwgM10sIFs2LCA0XSwgWzYsIDVdLCBbNiwgNl0sIFs2LCA3XSwgWzcsIC02XSwgWzcsIC01XSwgWzcsIC00XSwgWzcsIC0zXSwgWzcsIC0yXSwgWzcsIC0xXSwgWzcsIDBdLCBbNywgMV0sIFs3LCAyXSwgWzcsIDNdLCBbNywgNF0sIFs3LCA1XSwgWzcsIDZdLCBbNywgN10sIFs4LCAtN10sIFs4LCAtNl0sIFs4LCAtNV0sIFs4LCAtNF0sIFs4LCAtM10sIFs4LCAtMl0sIFs4LCAtMV0sIFs4LCAwXSwgWzgsIDFdLCBbOCwgMl0sIFs4LCAzXSwgWzgsIDRdLCBbOCwgNV0sIFs4LCA2XSwgWzksIC03XSwgWzksIC02XSwgWzksIC01XSwgWzksIC00XSwgWzksIC0zXSwgWzksIC0yXSwgWzksIC0xXSwgWzksIDBdLCBbOSwgMV0sIFs5LCAyXSwgWzksIDNdLCBbOSwgNF0sIFs5LCA1XSwgWzksIDZdLCBbMTAsIC04XSwgWzEwLCAtN10sIFsxMCwgLTZdLCBbMTAsIC01XSwgWzEwLCAtNF0sIFsxMCwgLTNdLCBbMTAsIC0yXSwgWzEwLCAtMV0sIFsxMCwgMF0sIFsxMCwgMV0sIFsxMCwgMl0sIFsxMCwgM10sIFsxMCwgNF0sIFsxMCwgNV0sIFsxMSwgLThdLCBbMTEsIC03XSwgWzExLCAtNl0sIFsxMSwgLTVdLCBbMTEsIC00XSwgWzExLCAtM10sIFsxMSwgLTJdLCBbMTEsIC0xXSwgWzExLCAwXSwgWzExLCAxXSwgWzExLCAyXSwgWzExLCAzXSwgWzExLCA0XSwgWzExLCA1XSwgWzEyLCAtOF0sIFsxMiwgLTddLCBbMTIsIC02XSwgWzEyLCAtNV0sIFsxMiwgLTRdLCBbMTIsIC0zXSwgWzEyLCAtMl0sIFsxMiwgLTFdLCBbMTIsIDBdLCBbMTIsIDFdLCBbMTIsIDJdLCBbMTIsIDNdLCBbMTIsIDRdLCBbMTMsIC04XSwgWzEzLCAtN10sIFsxMywgLTZdLCBbMTMsIC01XSwgWzEzLCAtNF0sIFsxMywgLTNdLCBbMTMsIC0yXSwgWzEzLCAtMV0sIFsxMywgMF0sIFsxMywgMV0sIFsxMywgMl0sIFsxMywgM10sIFsxNCwgLThdLCBbMTQsIC03XSwgWzE0LCAtNl0sIFsxNCwgLTVdLCBbMTQsIC00XSwgWzE0LCAtM10sIFsxNCwgLTJdLCBbMTQsIC0xXSwgWzE0LCAwXSwgWzE0LCAxXSwgWzE0LCAyXV0KUFJFU0VUUyA9IFsnMDEwMTExMTEwMDEwMTEwMTAwMDEwMTAxMTAwMTAwMDAxMTEwMDEwMTExMDAwMDAxMTExMTAxMTEwMDAwMDEwMDExMDExMTAwMTEwMDExMDAxMDAxMDAwMDAwMTExMDExMDEwMDAwMDEwMTAxMDExMDAwMDAwMDAxMDEwMTEwMDAwMTAxMDEwMTAwMTAwMTExMTAxMDEwMTAwMTAwMDAwMDExMDAxMDExMDAwMDAxMDExMTAxMTExMDAwMDExMDAwMTAxMDExMDExMTEwMDEwMDAwMTExMDExMDAxMDAwMTExMTExMTExMTExMDExMDAxJywgJzAxMTAxMTAwMTEwMTEwMTAwMTAxMTAwMDEwMDExMDExMTEwMTExMTAwMDEwMTEwMDAxMTAxMDExMDExMTAxMDEwMDExMTAwMDAwMDExMDAwMTAwMTExMTEwMTEwMDAxMDExMTExMTEwMTAxMTAxMTExMTAxMDAxMDAxMDExMTAwMTExMTAwMTAxMTExMDExMTAwMDExMDExMTEwMTExMDAxMTEwMTExMTExMDAxMDEwMTAwMDAwMTEwMTAwMDAxMDEwMTAxMDExMTExMDExMTExMDAxMTExMDAwMDAxMDEwMDAwMDAxMTAxMTAxMTExMScsICcxMDExMTAwMDAwMTAxMTAwMTExMTEwMTExMDEwMDEwMDEwMDAwMDAwMTAwMDAwMTExMDAwMTAxMTAwMTAwMTAxMDAxMTAwMTAxMTAxMTAwMTEwMTEwMTAwMTAwMTAwMDAxMTAwMDExMDEwMDExMTAwMDAxMTAxMTAwMTAwMDAwMDEwMDEwMDExMDAxMTAxMDExMTAwMDAxMTEwMTEwMTExMTAwMTAwMDEwMDAxMTExMDAwMTAwMTAwMDAwMDAwMDEwMTExMDEwMTEwMTAwMTEwMDExMDExMDExMTAxMDExMDAxMDAxMDAxMTAwMTEwMTAnLCAnMDExMDAxMTExMDExMDExMTExMDExMDAxMTEwMDAwMDAxMDAwMTAxMTAwMDAwMTAxMDAwMTExMDAwMDEwMTEwMTExMTAwMTAwMTAxMTAxMDEwMTAwMDEwMTEwMTAxMTEwMTAwMTAxMTEwMTAxMDExMDAxMDEwMDExMDAxMDEwMDAxMDAxMTEwMDEwMDEwMTAxMTAwMTExMDEwMDExMDAwMTAxMTExMTExMDAwMDAxMTAxMTExMTEwMTEwMDExMTEwMDAwMTAwMTExMTEwMTAxMTEwMDAxMTAxMDEwMDEwMDEwMTAxMDExMTExMTAxMTAxJywgJzEwMDEwMDAwMDAwMTAwMDAxMTExMDAxMTAxMTAwMTExMTAwMTEwMTEwMTAwMTEwMTAwMTAwMDExMDAwMDEwMTAwMTAxMDAwMDExMTAxMDEwMTAwMTEwMTEwMTEwMTEwMTEwMTExMTAxMDAxMTAwMTExMTEwMDEwMDExMDAxMDAwMDAxMTEwMTAwMDAwMTExMTEwMTAwMTEwMTAxMTExMTAxMDEwMDEwMTAwMDExMDEwMTExMTEwMTEwMTExMDAxMDEwMTAxMTExMDAxMTAxMTAwMDAxMTEwMDExMDExMDAwMDAwMTAxMTAxMTExMTEwMCcsICcxMDEwMDAwMTAxMDAwMDExMDExMDAwMTAxMDEwMDAxMTAxMDExMTAwMTExMDAwMTEwMTAxMTAxMTEwMTExMDExMTEwMTExMDAwMDExMDExMDAxMDAxMTAxMTEwMDAxMDEwMTEwMTAwMTExMTEwMTAwMTExMTAwMDAwMDExMDExMTExMTEwMDEwMTAxMDAwMTEwMTAwMTExMTAwMTEwMTExMTAxMDAxMDAxMDEwMDExMDEwMTAxMTAxMDEwMTEwMTEwMDAxMTEwMTEwMDAxMTAwMDAxMTAwMDEwMDEwMTExMDExMDEwMDExMTAwMDAxMTAnLCAnMTAwMDAwMDEwMTExMTAwMDExMDExMDAxMDAwMTAxMTEwMTExMDEwMTAxMTAxMDAwMTAxMDAwMDExMTEwMDExMTExMTAwMTAxMDAwMTAxMDEwMDAxMTAwMDAxMTAxMDAxMDExMTAwMTEwMDAwMTEwMDExMTExMTExMDAxMTAwMTAwMDAwMTAxMDEwMDAxMDAwMDEwMDAwMDAxMDAxMDAxMDExMTEwMTEwMDEwMTEwMTExMDEwMTExMDEwMDAxMDAxMDAwMDAxMDAwMTAxMTAwMDAxMDExMTEwMDAxMDEwMDEwMDExMDEwMTAwMDAxMDAxJywgJzAwMTAxMTExMDAxMTAxMTAxMDExMDEwMDExMTAxMTAwMDAwMTExMTExMDAwMTEwMDAxMDExMTAwMDAxMTAwMTEwMTAwMDExMTAwMDEwMDExMTEwMTExMTExMTAwMDAxMTAxMDAwMTExMDAxMDEwMTEwMDEwMTEwMDAwMTAwMTExMTExMTAwMDEwMTExMTExMTEwMTAxMTEwMDAxMTExMTAwMTEwMTAxMDExMTEwMTAwMTAxMTAwMTExMTAxMTAxMTEwMTAxMTAwMTEwMDEwMTEwMTEwMDExMDAwMDAxMDAwMTAwMTAwMDEwMTAwMTAwMCddCgoKZGVmIHBvbGFyKHgsIHksIHosIHJhZGl1cywgYW5nbGUpOgogICAgcmV0dXJuIHJnLlBvaW50M2QoeCArIHJhZGl1cyAqIGNvcyhhbmdsZSksIHkgKyByYWRpdXMgKiBzaW4oYW5nbGUpLCB6KQoKCmRlZiBtYWtlX3RpbGUoeCwgeSwgc2lkZSk6CiAgICBwb2ludHMgPSBbcG9sYXIoeCwgeSwgMCwgc2lkZSwgaSAqIHBpIC8gMykgZm9yIGkgaW4gcmFuZ2UoNildCiAgICBwcm9maWxlID0gcmcuUG9seWxpbmVDdXJ2ZShwb2ludHMgKyBwb2ludHNbOjFdKQogICAgcmV0dXJuIHJnLkV4dHJ1c2lvbi5DcmVhdGUocHJvZmlsZSwgMC4wNDUsIFRydWUpLlRvQnJlcCgpCgoKZGVmIG1ha2VfYXJjKHgsIHksIHNpZGUsIGVkZ2UsIGhlaWdodCk6CiAgICBhbmdsZSA9IChlZGdlICsgMSkgKiBwaSAvIDMKICAgIGNlbnRlciA9IHBvbGFyKHgsIHksIGhlaWdodCwgc2lkZSwgYW5nbGUpCiAgICBwb2ludHMgPSBbcG9sYXIoY2VudGVyLlgsIGNlbnRlci5ZLCBoZWlnaHQsIHNpZGUgLyAyLCBhbmdsZSArIGkgKiBwaSAvIDMpCiAgICAgICAgICAgICAgZm9yIGkgaW4gKDIsIDMsIDQpXQogICAgcmV0dXJuIHJnLkFyY0N1cnZlKHJnLkFyYygqcG9pbnRzKSkKCgpkZWYgbWFrZV9iYW5kKHgsIHksIHNpZGUsIGVkZ2UsIHdpZHRoLCBoZWlnaHQpOgogICAgYW5nbGUgPSAoZWRnZSArIDEpICogcGkgLyAzCiAgICBjZW50ZXIgPSBwb2xhcih4LCB5LCBoZWlnaHQsIHNpZGUsIGFuZ2xlKQogICAgYW5nbGVzID0gW2FuZ2xlICsgaSAqIHBpIC8gMyBmb3IgaSBpbiAoMiwgMywgNCldCiAgICBvdXRlciA9IFtwb2xhcihjZW50ZXIuWCwgY2VudGVyLlksIGhlaWdodCwgKHNpZGUgKyB3aWR0aCkgLyAyLCBhKSBmb3IgYSBpbiBhbmdsZXNdCiAgICBpbm5lciA9IFtwb2xhcihjZW50ZXIuWCwgY2VudGVyLlksIGhlaWdodCwgKHNpZGUgLSB3aWR0aCkgLyAyLCBhKSBmb3IgYSBpbiBhbmdsZXNdCiAgICBib3VuZGFyeSA9IHJnLlBvbHlDdXJ2ZSgpCiAgICBib3VuZGFyeS5BcHBlbmQocmcuQXJjQ3VydmUocmcuQXJjKCpvdXRlcikpKQogICAgYm91bmRhcnkuQXBwZW5kKHJnLkxpbmVDdXJ2ZShvdXRlclstMV0sIGlubmVyWy0xXSkpCiAgICBib3VuZGFyeS5BcHBlbmQocmcuQXJjQ3VydmUocmcuQXJjKCpyZXZlcnNlZChpbm5lcikpKSkKICAgIGJvdW5kYXJ5LkFwcGVuZChyZy5MaW5lQ3VydmUoaW5uZXJbMF0sIG91dGVyWzBdKSkKICAgIHJldHVybiByZy5CcmVwLkNyZWF0ZVBsYW5hckJyZXBzKGJvdW5kYXJ5LCAwLjAwMDAwMSlbMF0KCgpkZWYgam9pbl9wYXRocyhyb3RhdGlvbnMsIGFyY3MsIHRvbGVyYW5jZSk6CiAgICAiIiJFYWNoIGFyYyBqb2lucyBleGFjdGx5IG9uZSBhcmMgYWNyb3NzIGVhY2ggaW50ZXJuYWwgdGlsZSBlZGdlLiIiIgogICAgcmVtYWluaW5nID0gc2V0KGFyY3MpCiAgICBwYXRocyA9IFtdCiAgICB3aGlsZSByZW1haW5pbmc6CiAgICAgICAgZmlyc3QgPSBtaW4ocmVtYWluaW5nKQogICAgICAgIHJlbWFpbmluZy5yZW1vdmUoZmlyc3QpCiAgICAgICAgY29tcG9uZW50ID0ge2ZpcnN0fQogICAgICAgIHBlbmRpbmcgPSBbZmlyc3RdCiAgICAgICAgd2hpbGUgcGVuZGluZzoKICAgICAgICAgICAgcSwgciwgZWRnZSA9IHBlbmRpbmcucG9wKCkKICAgICAgICAgICAgZm9yIHBvcnQgaW4gKGVkZ2UsIChlZGdlICsgMSkgJSA2KToKICAgICAgICAgICAgICAgIGRxLCBkciA9IE5FSUdIQk9SU1twb3J0XQogICAgICAgICAgICAgICAgbmVpZ2hib3IgPSBxICsgZHEsIHIgKyBkcgogICAgICAgICAgICAgICAgaWYgbmVpZ2hib3Igbm90IGluIHJvdGF0aW9uczoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgaW5jb21pbmcgPSAocG9ydCArIDMpICUgNgogICAgICAgICAgICAgICAgc3RhcnQgPSAoaW5jb21pbmcgLSAoaW5jb21pbmcgLSByb3RhdGlvbnNbbmVpZ2hib3JdKSAlIDIpICUgNgogICAgICAgICAgICAgICAgY29ubmVjdGVkID0gbmVpZ2hib3JbMF0sIG5laWdoYm9yWzFdLCBzdGFydAogICAgICAgICAgICAgICAgaWYgY29ubmVjdGVkIGluIHJlbWFpbmluZzoKICAgICAgICAgICAgICAgICAgICByZW1haW5pbmcucmVtb3ZlKGNvbm5lY3RlZCkKICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQuYWRkKGNvbm5lY3RlZCkKICAgICAgICAgICAgICAgICAgICBwZW5kaW5nLmFwcGVuZChjb25uZWN0ZWQpCiAgICAgICAgam9pbmVkID0gcmcuQ3VydmUuSm9pbkN1cnZlcyhbYXJjc1trZXldIGZvciBrZXkgaW4gc29ydGVkKGNvbXBvbmVudCldLCB0b2xlcmFuY2UpCiAgICAgICAgaWYgbGVuKGpvaW5lZCkgIT0gMToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignQSBjb25uZWN0ZWQgYXJjIGdyb3VwIGZhaWxlZCB0byBqb2luLicpCiAgICAgICAgcGF0aHMuYXBwZW5kKChqb2luZWRbMF0sIGNvbXBvbmVudCkpCiAgICByZXR1cm4gcGF0aHMKCgpkZWYgbmVzdGluZ19kZXB0aHMobG9vcHMsIHBsYW5lLCB0b2xlcmFuY2UpOgogICAgIiIiQ291bnQgY29udGFpbmluZyBsb29wcywgd2l0aCBubyBsaW1pdCBvbiBuZXN0aW5nIGRlcHRoLiIiIgogICAgcmV0dXJuIFtzdW0ocmcuQ3VydmUuUGxhbmFyQ2xvc2VkQ3VydmVSZWxhdGlvbnNoaXAoYSwgYiwgcGxhbmUsIHRvbGVyYW5jZSkKICAgICAgICAgICAgICAgID09IHJnLlJlZ2lvbkNvbnRhaW5tZW50LkFJbnNpZGVCIGZvciBqLCBiIGluIGVudW1lcmF0ZShsb29wcykgaWYgaSAhPSBqKQogICAgICAgICAgICBmb3IgaSwgYSBpbiBlbnVtZXJhdGUobG9vcHMpXQoKCmRlZiBidWlsZF9mbG9vcihsYXlvdXQ9Niwgc2VlZD0yMywgc2lkZT0wLjQyLCBmaWxsPVRydWUsIHRyYWNlPVRydWUpOgogICAgaW5kZXggPSBpbnQobGF5b3V0KQogICAgc2lkZSA9IGZsb2F0KHNpZGUpCiAgICBpZiBub3QgMCA8PSBpbmRleCA8PSA4IG9yIHNpZGUgPD0gMDoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCdsYXlvdXQgbXVzdCBiZSAwLi44IGFuZCBzaWRlIG11c3QgYmUgcG9zaXRpdmUuJykKICAgIHJuZyA9IFJhbmRvbShpbnQoc2VlZCkpCiAgICByb3RhdGlvbnMgPSB7dHVwbGUoY2VsbCk6IChybmcuTmV4dCgyKSBpZiBpbmRleCA9PSAwIGVsc2UgaW50KFBSRVNFVFNbaW5kZXggLSAxXVtpXSkpCiAgICAgICAgICAgICAgICAgZm9yIGksIGNlbGwgaW4gZW51bWVyYXRlKENFTExTKX0KICAgIHRvbGVyYW5jZSA9IHNpZGUgKiAxZS02CiAgICBnZW9tZXRyeSwgY29sb3JzLCBhcmNzLCBiYW5kcyA9IFtdLCBbXSwge30sIHt9CiAgICBjZXJhbWljID0gQ29sb3IuRnJvbUFyZ2IoMjMwLCAyMTksIDE5MykKICAgIG5hdnkgPSBDb2xvci5Gcm9tQXJnYigzMiwgNjksIDgyKQogICAgb3JhbmdlID0gQ29sb3IuRnJvbUFyZ2IoMTYzLCA3NCwgNTApCiAgICBoZWlnaHQgPSAwLjA0NTIKCiAgICBmb3IgKHEsIHIpLCB0dXJuIGluIHJvdGF0aW9ucy5pdGVtcygpOgogICAgICAgIHggPSAxLjUgKiBzaWRlICogcQogICAgICAgIHkgPSBzcXJ0KDMpICogc2lkZSAqIChyICsgcSAvIDIuMCkKICAgICAgICBnZW9tZXRyeS5hcHBlbmQobWFrZV90aWxlKHgsIHksIHNpZGUpKQogICAgICAgIGNvbG9ycy5hcHBlbmQoY2VyYW1pYykKICAgICAgICBmb3IgaSBpbiByYW5nZSgzKToKICAgICAgICAgICAgZWRnZSA9ICgyICogaSArIHR1cm4pICUgNgogICAgICAgICAgICBrZXkgPSBxLCByLCBlZGdlCiAgICAgICAgICAgIGFyY3Nba2V5XSA9IG1ha2VfYXJjKHgsIHksIHNpZGUsIGVkZ2UsIGhlaWdodCkKICAgICAgICAgICAgYmFuZHNba2V5XSA9IG1ha2VfYmFuZCh4LCB5LCBzaWRlLCBlZGdlLCAwLjE5ICogc2lkZSwgaGVpZ2h0ICsgMC4wMDAyKQoKICAgIHBhdGhzID0gam9pbl9wYXRocyhyb3RhdGlvbnMsIGFyY3MsIHRvbGVyYW5jZSkKICAgIGxvb3BzID0gW2N1cnZlIGZvciBjdXJ2ZSwgXyBpbiBwYXRocyBpZiBjdXJ2ZS5Jc0Nsb3NlZF0KICAgIG9wZW5fcGF0aHMgPSBbKGN1cnZlLCBrZXlzKSBmb3IgY3VydmUsIGtleXMgaW4gcGF0aHMgaWYgbm90IGN1cnZlLklzQ2xvc2VkXQogICAgbG9uZ2VzdCA9IG1heChvcGVuX3BhdGhzLCBrZXk9bGFtYmRhIHBhaXI6IHBhaXJbMF0uR2V0TGVuZ3RoKCksIGRlZmF1bHQ9Tm9uZSkKICAgIHBsYW5lID0gcmcuUGxhbmUocmcuUG9pbnQzZCgwLCAwLCBoZWlnaHQpLCByZy5WZWN0b3IzZC5aQXhpcykKICAgIGRlcHRocyA9IG5lc3RpbmdfZGVwdGhzKGxvb3BzLCBwbGFuZSwgdG9sZXJhbmNlKQoKICAgIGlmIGZpbGwgYW5kIGxvb3BzOgogICAgICAgICMgUGxhbmFyIEJyZXBzIGludGVycHJldCBuZXN0ZWQgY2xvc2VkIGJvdW5kYXJpZXMgYXMgYWx0ZXJuYXRpbmcKICAgICAgICAjIG91dGVyIGxvb3BzIGFuZCBob2xlcywgc28gdGhpcyB3b3JrcyBhdCBldmVyeSBuZXN0aW5nIGRlcHRoLgogICAgICAgIGZpbGxlZCA9IGxpc3QocmcuQnJlcC5DcmVhdGVQbGFuYXJCcmVwcyhsb29wcywgdG9sZXJhbmNlKSBvciBbXSkKICAgICAgICBleHBlY3RlZF9hcmVhID0gc3VtKCgtMSkqKmRlcHRoICogcmcuQXJlYU1hc3NQcm9wZXJ0aWVzLkNvbXB1dGUoY3VydmUpLkFyZWEKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciBjdXJ2ZSwgZGVwdGggaW4gemlwKGxvb3BzLCBkZXB0aHMpKQogICAgICAgIGFjdHVhbF9hcmVhID0gc3VtKHJnLkFyZWFNYXNzUHJvcGVydGllcy5Db21wdXRlKGJyZXApLkFyZWEgZm9yIGJyZXAgaW4gZmlsbGVkKQogICAgICAgIGlmIGFicyhhY3R1YWxfYXJlYSAtIGV4cGVjdGVkX2FyZWEpID4gbWF4KDFlLTcsIGV4cGVjdGVkX2FyZWEgKiAxZS01KToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignTmVzdGVkLWxvb3AgZmlsbCBhcmVhIGZhaWxlZCB0aGUgcGFyaXR5IGNoZWNrLicpCiAgICAgICAgZ2VvbWV0cnkuZXh0ZW5kKGZpbGxlZCkKICAgICAgICBjb2xvcnMuZXh0ZW5kKFtuYXZ5XSAqIGxlbihmaWxsZWQpKQoKICAgIG9yYW5nZV9rZXlzID0gbG9uZ2VzdFsxXSBpZiB0cmFjZSBhbmQgbG9uZ2VzdCBlbHNlIHNldCgpCiAgICBmb3Iga2V5IGluIHNvcnRlZChiYW5kcyk6CiAgICAgICAgZ2VvbWV0cnkuYXBwZW5kKGJhbmRzW2tleV0pCiAgICAgICAgY29sb3JzLmFwcGVuZChvcmFuZ2UgaWYga2V5IGluIG9yYW5nZV9rZXlzIGVsc2UgbmF2eSkKICAgIGluZm8gPSB7CiAgICAgICAgJ3RpbGVzJzogbGVuKHJvdGF0aW9ucyksCiAgICAgICAgJ2Nsb3NlZCc6IGxlbihsb29wcyksCiAgICAgICAgJ29wZW4nOiBsZW4ob3Blbl9wYXRocyksCiAgICAgICAgJ21heF9kZXB0aCc6IG1heChkZXB0aHMsIGRlZmF1bHQ9LTEpICsgMSwKICAgICAgICAnbG9uZ2VzdF9hcmNzJzogbGVuKGxvbmdlc3RbMV0pIGlmIGxvbmdlc3QgZWxzZSAwLAogICAgICAgICdsb25nZXN0X2xlbmd0aCc6IGxvbmdlc3RbMF0uR2V0TGVuZ3RoKCkgaWYgbG9uZ2VzdCBlbHNlIDAsCiAgICAgICAgJ29yYW5nZV9iYW5kcyc6IGxlbihvcmFuZ2Vfa2V5cyksCiAgICB9CiAgICByZXR1cm4gZ2VvbWV0cnksIGNvbG9ycywgW2N1cnZlIGZvciBjdXJ2ZSwgXyBpbiBwYXRoc10sIGluZm8KCgppZiBhbGwobmFtZSBpbiBnbG9iYWxzKCkgZm9yIG5hbWUgaW4gKCdsYXlvdXQnLCAnc2VlZCcsICdzaWRlJywgJ2ZpbGwnLCAndHJhY2UnKSk6CiAgICBnZW9tZXRyeSwgY29sb3JzLCBwYXRocywgbWV0cmljcyA9IGJ1aWxkX2Zsb29yKGludChsYXlvdXQpLCBpbnQoc2VlZCksIHNpZGUsIGJvb2woZmlsbCksIGJvb2wodHJhY2UpKQogICAgcHJpbnQoJzI0MCBlcXVhbCBoZXhhZ29uczsgbGF5b3V0IHt9Jy5mb3JtYXQoaW50KGxheW91dCkpKQogICAgcHJpbnQoJ3t9IGNsb3NlZCBsb29wcywge30gb3BlbiBwYXRocywge30gbmVzdGVkIGxldmVscycuZm9ybWF0KAogICAgICAgIG1ldHJpY3NbJ2Nsb3NlZCddLCBtZXRyaWNzWydvcGVuJ10sIG1ldHJpY3NbJ21heF9kZXB0aCddKSkKICAgIHByaW50KCdMb25nZXN0IG9wZW4gcGF0aDoge30gYXJjcywgezouMmZ9IG0nLmZvcm1hdCgKICAgICAgICBtZXRyaWNzWydsb25nZXN0X2FyY3MnXSwgbWV0cmljc1snbG9uZ2VzdF9sZW5ndGgnXSkpCg==</item>
                         <item name="Title" type_name="gh_string" type_code="10">Bauhaus - Orbit and Stack</item>
                       </items>
                       <chunks count="1">
